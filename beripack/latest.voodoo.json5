@@ -15,6 +15,11 @@
                 "MinMemAlloc": "1024",
                 "OverrideMemory": "true"
             }
+        },
+        userFiles: {
+            include: [
+                "config/inventorysorter/config.json5"
+            ]
         }
     },
     "mods": {
@@ -303,6 +308,13 @@
             },
             {
                 "type": "curse",
+                id: "simplerharvest",
+                curse_projectID: 481720,
+//                "curse_projectName": "Fabric/simpleharvest",
+                validMcVersions: ["1.16.1"]
+            },
+            {
+                "type": "curse",
                 "curse_projectName": "Fabric/shulkerboxtooltip"
             },
             {
@@ -324,15 +336,15 @@
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/extra-origins"
-            },
+            },,
             {
                 "type": "curse",
-                "curse_projectName": "Fabric/origins-classes"
+                "curse_projectName": "Fabric/mob-origins"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/retail"
-            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/origins-classes"
+//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/yttr"
@@ -343,14 +355,32 @@
                     "optional_recommended"
                 ],
                 "curse_projectName": "Fabric/lithium",
-                "description": "experimental performance improvements"
+                "description": "experimental general-purpose optimizations"
+            },,
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/phosphor",
+                "description": "lighting engine performance optimizations"
             },
-
-            // libraries
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/sodium"
-//            }
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/simple-voice-chat",
+                "description": "Voice chat"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional"
+                ],
+                "curse_projectName": "Fabric/spark",
+                "description": "performance profiling"
+            }
         ],
         "client": [
             {
@@ -391,6 +421,10 @@
             },
             {
                 "type": "curse",
+                "curse_projectName": "Fabric/defaultsettings-fabric"
+            },
+            {
+                "type": "curse",
                 "applyOverrides": [
                     "optional_recommended"
                 ],
@@ -405,21 +439,22 @@
                 "curse_projectName": "Fabric/dynamic-sound-filters",
                 "description": "environment affects sound"
             },
-//            {
-//                "type": "curse",
-//                "applyOverrides": [
-//                    "optional"
-//                ],
-//                "curse_projectName": "Fabric/irisshaders",
-//                "description": "Shaders, may be broken"
-//            },
             {
                 "type": "curse",
                 "applyOverrides": [
                     "optional"
                 ],
+                name: "inventory-hud",
                 "curse_projectName": "Fabric/inventory-hud-forge",
                 "description": "Displays inventory on HUD"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/light-overlay",
+                "description": "This mod provides users with a NEI-like light overlay."
             },
         ],
         "server": [

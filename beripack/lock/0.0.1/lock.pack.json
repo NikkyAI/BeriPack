@@ -81,6 +81,18 @@
         },
         {
             "type": "curse",
+            "id": "architectury-fabric",
+            "path": "mods",
+            "name": "light-overlay",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 419697,
+            "fileID": 3385659
+        },
+        {
+            "type": "curse",
             "id": "art-of-alchemy-memoriam",
             "path": "mods",
             "name": "art-of-alchemy-memoriam",
@@ -308,7 +320,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "conjuring",
+            "name": "light-overlay",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -381,12 +393,24 @@
             "type": "curse",
             "id": "dawn",
             "path": "mods",
-            "name": "artisanat",
+            "name": "promenade",
             "dependencies": {
                 "fabric-api": "REQUIRED"
             },
             "projectID": 399309,
             "fileID": 3256690
+        },
+        {
+            "type": "curse",
+            "id": "defaultsettings-fabric",
+            "path": "mods",
+            "name": "defaultsettings-fabric",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 451860,
+            "fileID": 3235412
         },
         {
             "type": "curse",
@@ -464,7 +488,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "mechanix",
+            "name": "promenade",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -472,7 +496,7 @@
             "type": "curse",
             "id": "fabric-language-kotlin",
             "path": "mods",
-            "name": "adorn",
+            "name": "carrier",
             "projectID": 308769,
             "fileID": 3330753
         },
@@ -595,7 +619,7 @@
             "type": "curse",
             "id": "inventory-hud-forge",
             "path": "mods",
-            "name": "inventory-hud-forge",
+            "name": "inventory-hud",
             "side": "CLIENT",
             "description": "Displays inventory on HUD",
             "optionalData": {
@@ -651,10 +675,29 @@
         },
         {
             "type": "curse",
+            "id": "light-overlay",
+            "path": "mods",
+            "name": "light-overlay",
+            "side": "CLIENT",
+            "description": "This mod provides users with a NEI-like light overlay.",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "dependencies": {
+                "cloth-config": "REQUIRED",
+                "architectury-fabric": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 325492,
+            "fileID": 3356809
+        },
+        {
+            "type": "curse",
             "id": "lithium",
             "path": "mods",
             "name": "lithium",
-            "description": "experimental performance improvements",
+            "description": "experimental general-purpose optimizations",
             "optionalData": {
                 "selected": true,
                 "recommendation": "starred"
@@ -684,6 +727,17 @@
             },
             "projectID": 408118,
             "fileID": 3341947
+        },
+        {
+            "type": "curse",
+            "id": "mob-origins",
+            "path": "mods",
+            "name": "mob-origins",
+            "dependencies": {
+                "origins": "REQUIRED"
+            },
+            "projectID": 449974,
+            "fileID": 3280517
         },
         {
             "type": "curse",
@@ -757,17 +811,6 @@
         },
         {
             "type": "curse",
-            "id": "origins-classes",
-            "path": "mods",
-            "name": "origins-classes",
-            "dependencies": {
-                "origins": "REQUIRED"
-            },
-            "projectID": 401833,
-            "fileID": 3185590
-        },
-        {
-            "type": "curse",
             "id": "patchouli-fabric",
             "path": "mods",
             "name": "bewitchment",
@@ -784,6 +827,19 @@
             },
             "projectID": 319596,
             "fileID": 3351974
+        },
+        {
+            "type": "curse",
+            "id": "phosphor",
+            "path": "mods",
+            "name": "phosphor",
+            "description": "lighting engine performance optimizations",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "projectID": 372124,
+            "fileID": 3294303
         },
         {
             "type": "curse",
@@ -849,17 +905,6 @@
         },
         {
             "type": "curse",
-            "id": "retail",
-            "path": "mods",
-            "name": "retail",
-            "dependencies": {
-                "fabric-api": "REQUIRED"
-            },
-            "projectID": 431323,
-            "fileID": 3403717
-        },
-        {
-            "type": "curse",
             "id": "river-redux",
             "path": "mods",
             "name": "river-redux",
@@ -916,11 +961,45 @@
         },
         {
             "type": "curse",
+            "id": "simple-voice-chat",
+            "path": "mods",
+            "name": "simple-voice-chat",
+            "description": "Voice chat",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 416089,
+            "fileID": 3395253
+        },
+        {
+            "type": "curse",
+            "id": "simplerharvest",
+            "path": "mods",
+            "projectID": 481720,
+            "fileID": 3307870
+        },
+        {
+            "type": "curse",
             "id": "somnus",
             "path": "mods",
             "name": "bewitchment",
             "projectID": 433538,
             "fileID": 3218841
+        },
+        {
+            "type": "curse",
+            "id": "spark",
+            "path": "mods",
+            "name": "spark",
+            "description": "performance profiling",
+            "optionalData": {
+            },
+            "projectID": 361579,
+            "fileID": 3337642
         },
         {
             "type": "curse",
@@ -951,6 +1030,7 @@
             "id": "wthit",
             "path": "mods",
             "name": "wthit",
+            "side": "CLIENT",
             "dependencies": {
                 "fabric-api": "REQUIRED"
             },
