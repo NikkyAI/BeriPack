@@ -8,7 +8,7 @@
         "installer": "0.7.4"
     },
     "version": "0.0.1",
-    "icon": "../https:/static-cdn.jtvnw.net/emoticons/v1/emotesv2_afbd2850839c42d5844d13f0b850c25a/3.0",
+    "icon": "beri.png",
     "packOptions": {
         "multimcOptions": {
             "instanceCfg": {
@@ -320,7 +320,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "light-overlay",
+            "name": "conjuring",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -393,7 +393,7 @@
             "type": "curse",
             "id": "dawn",
             "path": "mods",
-            "name": "promenade",
+            "name": "artisanat",
             "dependencies": {
                 "fabric-api": "REQUIRED"
             },
@@ -488,7 +488,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "promenade",
+            "name": "culinaire",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -1021,7 +1021,7 @@
             "type": "curse",
             "id": "trinkets-fabric",
             "path": "mods",
-            "name": "give-me-hats",
+            "name": "artifacts-fabric",
             "projectID": 341284,
             "fileID": 3100959
         },
@@ -1030,12 +1030,43 @@
             "id": "wthit",
             "path": "mods",
             "name": "wthit",
-            "side": "CLIENT",
             "dependencies": {
                 "fabric-api": "REQUIRED"
             },
             "projectID": 440979,
             "fileID": 3356120
+        },
+        {
+            "type": "curse",
+            "id": "xaeros-minimap",
+            "path": "mods",
+            "name": "xaeros-minimap",
+            "description": "minimap",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 263420,
+            "fileID": 3396272
+        },
+        {
+            "type": "curse",
+            "id": "xaeros-world-map",
+            "path": "mods",
+            "name": "xaeros-world-map",
+            "description": "fullscreen map",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 317780,
+            "fileID": 3396261
         },
         {
             "type": "curse",
@@ -1052,7 +1083,7 @@
             "type": "curse",
             "id": "yungs-api-fabric",
             "path": "mods",
-            "name": "yungs-better-mineshafts-fabric",
+            "name": "yungs-better-strongholds-fabric",
             "projectID": 421649,
             "fileID": 3387982
         },

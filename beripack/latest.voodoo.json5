@@ -18,7 +18,9 @@
         },
         userFiles: {
             include: [
-                "config/inventorysorter/config.json5"
+                "config/inventorysorter/config.json5",
+                "config/xaerominimap.txt",
+                "config/xaeroworldmap.txt",
             ]
         }
     },
@@ -380,6 +382,22 @@
                 ],
                 "curse_projectName": "Fabric/spark",
                 "description": "performance profiling"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/xaeros-minimap",
+                "description": "minimap"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/xaeros-world-map",
+                "description": "fullscreen map"
             }
         ],
         "client": [

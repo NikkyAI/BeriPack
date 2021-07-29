@@ -5,7 +5,7 @@
         "NikkyAI",
         "StrawberiTheDaemon",
     ],
-    "icon": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_afbd2850839c42d5844d13f0b850c25a/3.0",
+    "icon": "beri.png",
     "uploadBaseUrl": "https://nikky.moe/.mc/voodoo/",
     "packConfig": {
         "versionAlias": {
