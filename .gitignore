@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+*.iml
+
+reports/
+
+logs/
+
+_upload/
+.completions/
+schema/
+
+wrapper/bin/

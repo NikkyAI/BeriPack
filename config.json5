@@ -1,0 +1,63 @@
+{
+  "$schema": "./schema/config.schema.json",
+  "curseforgeGenerators": {
+    "Fabric": {
+      "section": "MODS",
+      "categories": ["Fabric"],
+      "mcVersions": [
+        "1.16.5"
+      ]
+    },
+    "Resourcepack": {
+      "section": "RESOURCE_PACKS",
+      "mcVersions": [
+        "1.16.5"
+      ]
+    }
+  },
+  "forgeGenerators": {
+  },
+  "fabricGenerators": {
+    "Fabric": {
+      "mcVersions": [
+        "1.16.5"
+      ],
+      requireStable: true
+    }
+  },
+  "overrides": {
+    "@curse": {
+      "type": "curse",
+      "curse_useOriginalUrl": true
+    },
+    "@jenkins": {
+      "type": "jenkins",
+      "jenkins_useOriginalUrl": true
+    },
+    "@direct": {
+      "type": "direct",
+      "direct_useOriginalUrl": true
+    },
+    "server": {
+      "type": "common",
+      "side": "SERVER"
+    },
+    "client": {
+      "type": "common",
+      "side": "CLIENT"
+    },
+    "optional": {
+      "type": "common",
+      "optional": {
+        "selected": false
+      }
+    },
+    "optional_recommended": {
+      "type": "common",
+      "optional": {
+        "selected": true,
+        "recommendation": "starred"
+      }
+    }
+  }
+}

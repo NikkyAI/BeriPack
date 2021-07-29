@@ -1,0 +1,1015 @@
+{
+    "id": "beripack",
+    "mcVersion": "1.16.5",
+    "modloader": {
+        "type": "Fabric",
+        "loader": "0.11.6",
+        "intermediateMappings": "1.16.5",
+        "installer": "0.7.4"
+    },
+    "version": "0.0.1",
+    "icon": "../https:/static-cdn.jtvnw.net/emoticons/v1/emotesv2_afbd2850839c42d5844d13f0b850c25a/3.0",
+    "packOptions": {
+        "multimcOptions": {
+            "instanceCfg": {
+                "MaxMemAlloc": "6144",
+                "MinMemAlloc": "1024",
+                "OverrideMemory": "true"
+            }
+        },
+        "uploadUrl": "https://nikky.moe/.mc/voodoo/beripack"
+    },
+    "entries": [
+        {
+            "type": "curse",
+            "id": "additional-bars-fabric",
+            "path": "mods",
+            "name": "additional-bars-fabric",
+            "projectID": 431823,
+            "fileID": 3304780
+        },
+        {
+            "type": "curse",
+            "id": "adorn",
+            "path": "mods",
+            "name": "adorn",
+            "dependencies": {
+                "fabric-language-kotlin": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 320215,
+            "fileID": 3332780
+        },
+        {
+            "type": "curse",
+            "id": "all-stone-to-tools",
+            "path": "mods",
+            "name": "all-stone-to-tools",
+            "projectID": 451571,
+            "fileID": 3363244
+        },
+        {
+            "type": "curse",
+            "id": "amecs",
+            "path": "mods",
+            "name": "amecs",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 324564,
+            "fileID": 3285961
+        },
+        {
+            "type": "curse",
+            "id": "animal-feeding-trough",
+            "path": "mods",
+            "name": "animal-feeding-trough",
+            "projectID": 445838,
+            "fileID": 3253932
+        },
+        {
+            "type": "curse",
+            "id": "appleskin",
+            "path": "mods",
+            "name": "appleskin",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 248787,
+            "fileID": 3395797
+        },
+        {
+            "type": "curse",
+            "id": "art-of-alchemy-memoriam",
+            "path": "mods",
+            "name": "art-of-alchemy-memoriam",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 415339,
+            "fileID": 3383183
+        },
+        {
+            "type": "curse",
+            "id": "artifacts-fabric",
+            "path": "mods",
+            "name": "artifacts-fabric",
+            "dependencies": {
+                "cloth-config": "REQUIRED",
+                "fabric-api": "REQUIRED",
+                "trinkets-fabric": "REQUIRED"
+            },
+            "projectID": 401236,
+            "fileID": 3304225
+        },
+        {
+            "type": "curse",
+            "id": "artisanat",
+            "path": "mods",
+            "name": "artisanat",
+            "dependencies": {
+                "dawn": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 399443,
+            "fileID": 3338856
+        },
+        {
+            "type": "curse",
+            "id": "bclib",
+            "path": "mods",
+            "name": "betterend",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 495191,
+            "fileID": 3375511
+        },
+        {
+            "type": "curse",
+            "id": "bedspreads-fabric",
+            "path": "mods",
+            "name": "bedspreads-fabric",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 400477,
+            "fileID": 3120448
+        },
+        {
+            "type": "curse",
+            "id": "better-dropped-items",
+            "path": "mods",
+            "name": "better-dropped-items",
+            "projectID": 350250,
+            "fileID": 3108108
+        },
+        {
+            "type": "curse",
+            "id": "better-signs-and-frames",
+            "path": "mods",
+            "name": "better-signs-and-frames",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 384963,
+            "fileID": 3237334
+        },
+        {
+            "type": "curse",
+            "id": "betterend",
+            "path": "mods",
+            "name": "betterend",
+            "dependencies": {
+                "bclib": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 413596,
+            "fileID": 3360847
+        },
+        {
+            "type": "curse",
+            "id": "betterf3",
+            "path": "mods",
+            "name": "betterf3",
+            "projectID": 401648,
+            "fileID": 3299172
+        },
+        {
+            "type": "curse",
+            "id": "betternether",
+            "path": "mods",
+            "name": "betternether",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 311377,
+            "fileID": 3180179
+        },
+        {
+            "type": "curse",
+            "id": "bewitchment",
+            "path": "mods",
+            "name": "bewitchment",
+            "dependencies": {
+                "somnus": "REQUIRED",
+                "patchouli-fabric": "REQUIRED",
+                "fabric-api": "REQUIRED",
+                "trinkets-fabric": "REQUIRED",
+                "pehkui": "REQUIRED",
+                "impersonate": "REQUIRED",
+                "cloth-config": "REQUIRED"
+            },
+            "projectID": 394915,
+            "fileID": 3403216
+        },
+        {
+            "type": "curse",
+            "id": "blockshifter",
+            "path": "mods",
+            "name": "blockshifter",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "fabric-language-scala": "REQUIRED"
+            },
+            "projectID": 398676,
+            "fileID": 3402300
+        },
+        {
+            "type": "curse",
+            "id": "blockus",
+            "path": "mods",
+            "name": "blockus",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 312289,
+            "fileID": 3394245
+        },
+        {
+            "type": "curse",
+            "id": "byg-addon-enhanced-trees-and-stuff",
+            "path": "mods",
+            "name": "byg-addon-enhanced-trees-and-stuff",
+            "dependencies": {
+                "oh-the-biomes-youll-go": "REQUIRED"
+            },
+            "projectID": 488573,
+            "fileID": 3344292
+        },
+        {
+            "type": "curse",
+            "id": "campanion",
+            "path": "mods",
+            "name": "campanion",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 373138,
+            "fileID": 3212558
+        },
+        {
+            "type": "curse",
+            "id": "can-i-mine-this-block",
+            "path": "mods",
+            "name": "can-i-mine-this-block",
+            "projectID": 400929,
+            "fileID": 3030323
+        },
+        {
+            "type": "curse",
+            "id": "carrier",
+            "path": "mods",
+            "name": "carrier",
+            "dependencies": {
+                "fabric-language-kotlin": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 409184,
+            "fileID": 3298529
+        },
+        {
+            "type": "curse",
+            "id": "cave-biomes",
+            "path": "mods",
+            "name": "cave-biomes",
+            "projectID": 371307,
+            "fileID": 3186845
+        },
+        {
+            "type": "curse",
+            "id": "charm",
+            "path": "mods",
+            "name": "charm",
+            "projectID": 318872,
+            "fileID": 3220890
+        },
+        {
+            "type": "curse",
+            "id": "charmonium",
+            "path": "mods",
+            "name": "charmonium",
+            "dependencies": {
+                "charm": "REQUIRED"
+            },
+            "projectID": 378696,
+            "fileID": 3220895
+        },
+        {
+            "type": "curse",
+            "id": "cleancut",
+            "path": "mods",
+            "name": "cleancut",
+            "projectID": 392805,
+            "fileID": 3061943
+        },
+        {
+            "type": "curse",
+            "id": "cloth-config",
+            "path": "mods",
+            "name": "conjuring",
+            "projectID": 319057,
+            "fileID": 3311351
+        },
+        {
+            "type": "curse",
+            "id": "columns",
+            "path": "mods",
+            "name": "columns",
+            "projectID": 385230,
+            "fileID": 3107117
+        },
+        {
+            "type": "curse",
+            "id": "conjuring",
+            "path": "mods",
+            "name": "conjuring",
+            "dependencies": {
+                "cloth-config": "REQUIRED"
+            },
+            "projectID": 422310,
+            "fileID": 3372829
+        },
+        {
+            "type": "curse",
+            "id": "controlling-for-fabric",
+            "path": "mods",
+            "name": "controlling-for-fabric",
+            "side": "CLIENT",
+            "projectID": 308841,
+            "fileID": 3039289
+        },
+        {
+            "type": "curse",
+            "id": "couplings-for-fabric-updated",
+            "path": "mods",
+            "name": "couplings-for-fabric-updated",
+            "projectID": 395659,
+            "fileID": 3111745
+        },
+        {
+            "type": "curse",
+            "id": "culinaire",
+            "path": "mods",
+            "name": "culinaire",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "dawn": "REQUIRED"
+            },
+            "projectID": 390675,
+            "fileID": 3284274
+        },
+        {
+            "type": "curse",
+            "id": "dark-loading-screen",
+            "path": "mods",
+            "name": "dark-loading-screen",
+            "side": "CLIENT",
+            "projectID": 365727,
+            "fileID": 3185761
+        },
+        {
+            "type": "curse",
+            "id": "dark-paintings",
+            "path": "mods",
+            "name": "dark-paintings",
+            "projectID": 377281,
+            "fileID": 3358159
+        },
+        {
+            "type": "curse",
+            "id": "dawn",
+            "path": "mods",
+            "name": "artisanat",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 399309,
+            "fileID": 3256690
+        },
+        {
+            "type": "curse",
+            "id": "draylars-battle-towers",
+            "path": "mods",
+            "name": "draylars-battle-towers",
+            "projectID": 315386,
+            "fileID": 3248247
+        },
+        {
+            "type": "curse",
+            "id": "dynamic-sound-filters",
+            "path": "mods",
+            "name": "dynamic-sound-filters",
+            "side": "CLIENT",
+            "description": "environment affects sound",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 392101,
+            "fileID": 3182279
+        },
+        {
+            "type": "curse",
+            "id": "easyautocrafting",
+            "path": "mods",
+            "name": "easyautocrafting",
+            "projectID": 462134,
+            "fileID": 3260259
+        },
+        {
+            "type": "curse",
+            "id": "enchantment-descriptions",
+            "path": "mods",
+            "name": "enchantment-descriptions",
+            "projectID": 250419,
+            "fileID": 3365169
+        },
+        {
+            "type": "curse",
+            "id": "expanded-storage-fabric",
+            "path": "mods",
+            "name": "expanded-storage-fabric",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 317856,
+            "fileID": 3382387
+        },
+        {
+            "type": "curse",
+            "id": "extra-alchemy",
+            "path": "mods",
+            "name": "extra-alchemy",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 247357,
+            "fileID": 3332431
+        },
+        {
+            "type": "curse",
+            "id": "extra-origins",
+            "path": "mods",
+            "name": "extra-origins",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "pehkui": "REQUIRED",
+                "origins": "REQUIRED"
+            },
+            "projectID": 398419,
+            "fileID": 3331259
+        },
+        {
+            "type": "curse",
+            "id": "fabric-api",
+            "path": "mods",
+            "name": "mechanix",
+            "projectID": 306612,
+            "fileID": 3398544
+        },
+        {
+            "type": "curse",
+            "id": "fabric-language-kotlin",
+            "path": "mods",
+            "name": "adorn",
+            "projectID": 308769,
+            "fileID": 3330753
+        },
+        {
+            "type": "curse",
+            "id": "fabric-language-scala",
+            "path": "mods",
+            "name": "blockshifter",
+            "projectID": 309275,
+            "fileID": 3392902
+        },
+        {
+            "type": "curse",
+            "id": "falling-tree",
+            "path": "mods",
+            "name": "falling-tree",
+            "projectID": 349559,
+            "fileID": 3349236
+        },
+        {
+            "type": "curse",
+            "id": "gate-of-babylon",
+            "path": "mods",
+            "name": "gate-of-babylon",
+            "projectID": 407500,
+            "fileID": 3328789
+        },
+        {
+            "type": "curse",
+            "id": "geckolib-fabric",
+            "path": "mods",
+            "name": "guardians-galore",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 398667,
+            "fileID": 3371313
+        },
+        {
+            "type": "curse",
+            "id": "give-me-hats",
+            "path": "mods",
+            "name": "give-me-hats",
+            "dependencies": {
+                "trinkets-fabric": "REQUIRED"
+            },
+            "projectID": 384009,
+            "fileID": 3276337
+        },
+        {
+            "type": "curse",
+            "id": "gravestones",
+            "path": "mods",
+            "name": "gravestones",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 373595,
+            "fileID": 3205463
+        },
+        {
+            "type": "curse",
+            "id": "grind-enchantments",
+            "path": "mods",
+            "name": "grind-enchantments",
+            "projectID": 379680,
+            "fileID": 3063879
+        },
+        {
+            "type": "curse",
+            "id": "guardians-galore",
+            "path": "mods",
+            "name": "guardians-galore",
+            "dependencies": {
+                "geckolib-fabric": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 483073,
+            "fileID": 3368515
+        },
+        {
+            "type": "curse",
+            "id": "illuminations",
+            "path": "mods",
+            "name": "illuminations",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 292908,
+            "fileID": 3302815
+        },
+        {
+            "type": "curse",
+            "id": "immersive-portals-mod",
+            "path": "mods",
+            "name": "immersive-portals-mod",
+            "projectID": 332273,
+            "fileID": 3364238
+        },
+        {
+            "type": "curse",
+            "id": "impersonate",
+            "path": "mods",
+            "name": "impersonate",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 360333,
+            "fileID": 3304035
+        },
+        {
+            "type": "curse",
+            "id": "inmis",
+            "path": "mods",
+            "name": "inmis",
+            "projectID": 369254,
+            "fileID": 3264737
+        },
+        {
+            "type": "curse",
+            "id": "inventory-hud-forge",
+            "path": "mods",
+            "name": "inventory-hud-forge",
+            "side": "CLIENT",
+            "description": "Displays inventory on HUD",
+            "optionalData": {
+            },
+            "projectID": 357540,
+            "fileID": 3296747
+        },
+        {
+            "type": "curse",
+            "id": "inventory-sorting",
+            "path": "mods",
+            "name": "inventory-sorting",
+            "side": "CLIENT",
+            "projectID": 325471,
+            "fileID": 3280011
+        },
+        {
+            "type": "curse",
+            "id": "lambdynamiclights",
+            "path": "mods",
+            "name": "lambdynamiclights",
+            "side": "CLIENT",
+            "description": "moving light sources",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "dependencies": {
+                "modmenu": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 393442,
+            "fileID": 3172563
+        },
+        {
+            "type": "curse",
+            "id": "lib",
+            "path": "mods",
+            "name": "mechanix",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 444498,
+            "fileID": 3328057
+        },
+        {
+            "type": "curse",
+            "id": "lifts",
+            "path": "mods",
+            "name": "lifts",
+            "projectID": 451554,
+            "fileID": 3300161
+        },
+        {
+            "type": "curse",
+            "id": "lithium",
+            "path": "mods",
+            "name": "lithium",
+            "description": "experimental performance improvements",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "projectID": 360438,
+            "fileID": 3344974
+        },
+        {
+            "type": "curse",
+            "id": "mechanix",
+            "path": "mods",
+            "name": "mechanix",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "lib": "REQUIRED"
+            },
+            "projectID": 421512,
+            "fileID": 3328060
+        },
+        {
+            "type": "curse",
+            "id": "megane",
+            "path": "mods",
+            "name": "megane",
+            "dependencies": {
+                "wthit": "REQUIRED"
+            },
+            "projectID": 408118,
+            "fileID": 3341947
+        },
+        {
+            "type": "curse",
+            "id": "modmenu",
+            "path": "mods",
+            "name": "modmenu",
+            "side": "CLIENT",
+            "projectID": 308702,
+            "fileID": 3400184
+        },
+        {
+            "type": "curse",
+            "id": "natures-compass",
+            "path": "mods",
+            "name": "natures-compass",
+            "projectID": 252848,
+            "fileID": 3404859
+        },
+        {
+            "type": "curse",
+            "id": "netherite-plus-mod",
+            "path": "mods",
+            "name": "netherite-plus-mod",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 394120,
+            "fileID": 3334125
+        },
+        {
+            "type": "curse",
+            "id": "npc-variety-port",
+            "path": "mods",
+            "name": "npc-variety-port",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 476200,
+            "fileID": 3307717
+        },
+        {
+            "type": "curse",
+            "id": "oh-the-biomes-youll-go",
+            "path": "mods",
+            "name": "byg-addon-enhanced-trees-and-stuff",
+            "projectID": 247560,
+            "fileID": 3311225
+        },
+        {
+            "type": "curse",
+            "id": "ok-zoomer",
+            "path": "mods",
+            "name": "ok-zoomer",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 354047,
+            "fileID": 3048200
+        },
+        {
+            "type": "curse",
+            "id": "origins",
+            "path": "mods",
+            "name": "origins",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 391943,
+            "fileID": 3319081
+        },
+        {
+            "type": "curse",
+            "id": "origins-classes",
+            "path": "mods",
+            "name": "origins-classes",
+            "dependencies": {
+                "origins": "REQUIRED"
+            },
+            "projectID": 401833,
+            "fileID": 3185590
+        },
+        {
+            "type": "curse",
+            "id": "patchouli-fabric",
+            "path": "mods",
+            "name": "bewitchment",
+            "projectID": 393236,
+            "fileID": 3362798
+        },
+        {
+            "type": "curse",
+            "id": "pehkui",
+            "path": "mods",
+            "name": "pehkui",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 319596,
+            "fileID": 3351974
+        },
+        {
+            "type": "curse",
+            "id": "plant-in-a-jar",
+            "path": "mods",
+            "name": "plant-in-a-jar",
+            "projectID": 397183,
+            "fileID": 3315906
+        },
+        {
+            "type": "curse",
+            "id": "pling",
+            "path": "mods",
+            "name": "pling",
+            "side": "CLIENT",
+            "projectID": 365521,
+            "fileID": 3153778
+        },
+        {
+            "type": "curse",
+            "id": "polymorph-fabric",
+            "path": "mods",
+            "name": "polymorph-fabric",
+            "projectID": 397434,
+            "fileID": 3215832
+        },
+        {
+            "type": "curse",
+            "id": "potion-descriptions-fabric",
+            "path": "mods",
+            "name": "potion-descriptions-fabric",
+            "projectID": 414488,
+            "fileID": 3160411
+        },
+        {
+            "type": "curse",
+            "id": "presence-footsteps",
+            "path": "mods",
+            "name": "presence-footsteps",
+            "side": "CLIENT",
+            "projectID": 334259,
+            "fileID": 3153246
+        },
+        {
+            "type": "curse",
+            "id": "promenade",
+            "path": "mods",
+            "name": "promenade",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "dawn": "REQUIRED"
+            },
+            "projectID": 399648,
+            "fileID": 3284275
+        },
+        {
+            "type": "curse",
+            "id": "rare-ice",
+            "path": "mods",
+            "name": "rare-ice",
+            "projectID": 373774,
+            "fileID": 3033315
+        },
+        {
+            "type": "curse",
+            "id": "retail",
+            "path": "mods",
+            "name": "retail",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 431323,
+            "fileID": 3403717
+        },
+        {
+            "type": "curse",
+            "id": "river-redux",
+            "path": "mods",
+            "name": "river-redux",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 380548,
+            "fileID": 3186878
+        },
+        {
+            "type": "curse",
+            "id": "roughly-enough-items",
+            "path": "mods",
+            "name": "roughly-enough-items",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "cloth-config": "REQUIRED"
+            },
+            "projectID": 310111,
+            "fileID": 3337658
+        },
+        {
+            "type": "curse",
+            "id": "roughly-enough-resources",
+            "path": "mods",
+            "name": "roughly-enough-resources",
+            "dependencies": {
+                "roughly-enough-items": "REQUIRED"
+            },
+            "projectID": 325625,
+            "fileID": 3343450
+        },
+        {
+            "type": "curse",
+            "id": "shulkerboxtooltip",
+            "path": "mods",
+            "name": "shulkerboxtooltip",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 315811,
+            "fileID": 3366855
+        },
+        {
+            "type": "curse",
+            "id": "simple-emerald-tools-fabric",
+            "path": "mods",
+            "name": "simple-emerald-tools-fabric",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 375954,
+            "fileID": 3278620
+        },
+        {
+            "type": "curse",
+            "id": "somnus",
+            "path": "mods",
+            "name": "bewitchment",
+            "projectID": 433538,
+            "fileID": 3218841
+        },
+        {
+            "type": "curse",
+            "id": "sticky-hopper",
+            "path": "mods",
+            "name": "sticky-hopper",
+            "projectID": 492282,
+            "fileID": 3361551
+        },
+        {
+            "type": "curse",
+            "id": "tax-free-levels",
+            "path": "mods",
+            "name": "tax-free-levels",
+            "projectID": 462128,
+            "fileID": 3273554
+        },
+        {
+            "type": "curse",
+            "id": "trinkets-fabric",
+            "path": "mods",
+            "name": "give-me-hats",
+            "projectID": 341284,
+            "fileID": 3100959
+        },
+        {
+            "type": "curse",
+            "id": "wthit",
+            "path": "mods",
+            "name": "wthit",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 440979,
+            "fileID": 3356120
+        },
+        {
+            "type": "curse",
+            "id": "yttr",
+            "path": "mods",
+            "name": "yttr",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 467267,
+            "fileID": 3289479
+        },
+        {
+            "type": "curse",
+            "id": "yungs-api-fabric",
+            "path": "mods",
+            "name": "yungs-better-mineshafts-fabric",
+            "projectID": 421649,
+            "fileID": 3387982
+        },
+        {
+            "type": "curse",
+            "id": "yungs-better-caves-fabric",
+            "path": "mods",
+            "name": "yungs-better-caves-fabric",
+            "dependencies": {
+                "yungs-api-fabric": "REQUIRED"
+            },
+            "projectID": 408465,
+            "fileID": 3307522
+        },
+        {
+            "type": "curse",
+            "id": "yungs-better-mineshafts-fabric",
+            "path": "mods",
+            "name": "yungs-better-mineshafts-fabric",
+            "dependencies": {
+                "yungs-api-fabric": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 373591,
+            "fileID": 3344725
+        },
+        {
+            "type": "curse",
+            "id": "yungs-better-strongholds-fabric",
+            "path": "mods",
+            "name": "yungs-better-strongholds-fabric",
+            "dependencies": {
+                "fabric-api": "REQUIRED",
+                "yungs-api-fabric": "REQUIRED"
+            },
+            "projectID": 480684,
+            "fileID": 3387988
+        }
+    ]
+}

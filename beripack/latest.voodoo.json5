@@ -1,0 +1,428 @@
+{
+    "$schema": "../schema/versionPack.schema.json",
+    "version": "0.0.1",
+    "srcDir": "src",
+    "mcVersion": "1.16.5",
+    "modloader": {
+        "type": "modloader.fabric",
+        "installer": "Fabric/0.7.4",
+        intermediateMappings: "Fabric/1.16.5"
+    },
+    "packageConfiguration": {
+        "multimc": {
+            "instanceCfg": {
+                "MaxMemAlloc": "6144",
+                "MinMemAlloc": "1024",
+                "OverrideMemory": "true"
+            }
+        }
+    },
+    "mods": {
+        "": [
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/additional-bars-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/adorn"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/amecs"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/animal-feeding-trough"
+            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/apple-trees-revived"
+//            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/artifacts-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/artisanat"
+            },
+            {
+                "type": "curse",
+                "id": "art-of-alchemy-memoriam",
+                "name": "art-of-alchemy-memoriam",
+                "curse_projectID": 415339
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/draylars-battle-towers"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/bedspreads-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/betterend"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/betternether"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/better-signs-and-frames"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/better-dropped-items"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/betterf3"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/yungs-better-caves-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/yungs-better-mineshafts-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/yungs-better-strongholds-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/bewitchment"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/blockshifter"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/blockus"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/byg-addon-enhanced-trees-and-stuff"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/campanion"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/can-i-mine-this-block"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/carrier"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/cave-biomes"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/charm"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/charmonium"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/cleancut"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/columns"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/conjuring"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/couplings-for-fabric-updated"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/culinaire"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/dark-paintings"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/dark-paintings"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/dark-paintings"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/easyautocrafting"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/simple-emerald-tools-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/enchantment-descriptions"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/expanded-storage-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/extra-alchemy"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/falling-tree"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/gate-of-babylon"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/give-me-hats"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/gravestones"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/grind-enchantments"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/guardians-galore"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/illuminations"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/immersive-portals-mod"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/impersonate"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/inmis"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/lifts"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/mechanix"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/megane"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/natures-compass"
+            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/nbt-crafting"
+//            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/netherite-plus-mod"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/npc-variety-port"
+            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/outvoted"
+//            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/pehkui"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/pehkui"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/plant-in-a-jar"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/pling"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/polymorph-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/potion-descriptions-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/promenade"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/rare-ice"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/river-redux"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/roughly-enough-items"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/roughly-enough-resources"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/shulkerboxtooltip"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/sticky-hopper"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/all-stone-to-tools"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/tax-free-levels"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/origins"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/extra-origins"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/origins-classes"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/retail"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/yttr"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/lithium",
+                "description": "experimental performance improvements"
+            },
+
+            // libraries
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/sodium"
+//            }
+        ],
+        "client": [
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/appleskin"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/controlling-for-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/wthit"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/inventory-sorting"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/modmenu"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/ok-zoomer"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/pling"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/presence-footsteps"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/dark-loading-screen"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/lambdynamiclights",
+                "description": "moving light sources"
+            },
+            {
+                "type": "curse",
+//                "applyOverrides": [
+//                    "optional_recommended"
+//                ],
+                "curse_projectName": "Fabric/dynamic-sound-filters",
+                "description": "environment affects sound"
+            },
+//            {
+//                "type": "curse",
+//                "applyOverrides": [
+//                    "optional"
+//                ],
+//                "curse_projectName": "Fabric/irisshaders",
+//                "description": "Shaders, may be broken"
+//            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional"
+                ],
+                "curse_projectName": "Fabric/inventory-hud-forge",
+                "description": "Displays inventory on HUD"
+            },
+        ],
+        "server": [
+        ]
+    }
+}
