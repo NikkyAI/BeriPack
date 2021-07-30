@@ -156,10 +156,10 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/couplings-for-fabric-updated"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/culinaire"
-            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/culinaire"
+//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/dark-paintings"
@@ -338,15 +338,19 @@
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/extra-origins"
-            },,
+            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/mob-origins"
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/origins-classes"
-//            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/terran-expansion"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/realistic-bakery-products-fabric"
+            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/yttr"
@@ -358,7 +362,7 @@
                 ],
                 "curse_projectName": "Fabric/lithium",
                 "description": "experimental general-purpose optimizations"
-            },,
+            },
             {
                 "type": "curse",
                 "applyOverrides": [

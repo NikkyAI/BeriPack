@@ -320,7 +320,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "conjuring",
+            "name": "artifacts-fabric",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -359,18 +359,6 @@
             "name": "couplings-for-fabric-updated",
             "projectID": 395659,
             "fileID": 3111745
-        },
-        {
-            "type": "curse",
-            "id": "culinaire",
-            "path": "mods",
-            "name": "culinaire",
-            "dependencies": {
-                "fabric-api": "REQUIRED",
-                "dawn": "REQUIRED"
-            },
-            "projectID": 390675,
-            "fileID": 3284274
         },
         {
             "type": "curse",
@@ -488,7 +476,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "culinaire",
+            "name": "netherite-plus-mod",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -905,6 +893,14 @@
         },
         {
             "type": "curse",
+            "id": "realistic-bakery-products-fabric",
+            "path": "mods",
+            "name": "realistic-bakery-products-fabric",
+            "projectID": 406481,
+            "fileID": 3381993
+        },
+        {
+            "type": "curse",
             "id": "river-redux",
             "path": "mods",
             "name": "river-redux",
@@ -1019,9 +1015,20 @@
         },
         {
             "type": "curse",
+            "id": "terran-expansion",
+            "path": "mods",
+            "name": "terran-expansion",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 413971,
+            "fileID": 3140421
+        },
+        {
+            "type": "curse",
             "id": "trinkets-fabric",
             "path": "mods",
-            "name": "artifacts-fabric",
+            "name": "give-me-hats",
             "projectID": 341284,
             "fileID": 3100959
         },
@@ -1050,7 +1057,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 263420,
-            "fileID": 3396272
+            "fileID": 3405504
         },
         {
             "type": "curse",
@@ -1066,7 +1073,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 317780,
-            "fileID": 3396261
+            "fileID": 3405516
         },
         {
             "type": "curse",
@@ -1083,7 +1090,7 @@
             "type": "curse",
             "id": "yungs-api-fabric",
             "path": "mods",
-            "name": "yungs-better-strongholds-fabric",
+            "name": "yungs-better-mineshafts-fabric",
             "projectID": 421649,
             "fileID": 3387982
         },
