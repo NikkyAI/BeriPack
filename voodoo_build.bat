@@ -1,2 +1,2 @@
-voodoo compile beripack/latest.voodoo.json5
+call voodoo compile beripack/latest.voodoo.json5
 

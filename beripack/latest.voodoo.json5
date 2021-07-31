@@ -6,7 +6,7 @@
     "modloader": {
         "type": "modloader.fabric",
         "installer": "Fabric/0.7.4",
-        intermediateMappings: "Fabric/1.16.5"
+        "intermediateMappings": "Fabric/1.16.5"
     },
     "packageConfiguration": {
         "multimc": {
@@ -16,8 +16,8 @@
                 "OverrideMemory": "true"
             }
         },
-        userFiles: {
-            include: [
+        "userFiles": {
+            "include": [
                 "config/inventorysorter/config.json5",
                 "config/xaerominimap.txt",
                 "config/xaeroworldmap.txt",
@@ -374,14 +374,6 @@
             {
                 "type": "curse",
                 "applyOverrides": [
-                    "optional_recommended"
-                ],
-                "curse_projectName": "Fabric/simple-voice-chat",
-                "description": "Voice chat"
-            },
-            {
-                "type": "curse",
-                "applyOverrides": [
                     "optional"
                 ],
                 "curse_projectName": "Fabric/spark",
@@ -444,6 +436,10 @@
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/defaultsettings-fabric"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/ears"
             },
             {
                 "type": "curse",

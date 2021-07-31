@@ -59,3 +59,12 @@ other:
 ```bash
 ./voodoo launch multimc beripack/latest.voodoo.json5
 ```
+
+### building the server
+
+output will be in `_upload/server/extracted`
+
+windows:
+```
+voodoo_package_server.bat
+```

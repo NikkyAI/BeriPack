@@ -1,2 +1,2 @@
-voodoo launch multimc beripack/latest.voodoo.json5
+call voodoo launch multimc beripack/latest.voodoo.json5
 

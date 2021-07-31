@@ -320,7 +320,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "artifacts-fabric",
+            "name": "light-overlay",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -423,6 +423,15 @@
         },
         {
             "type": "curse",
+            "id": "ears",
+            "path": "mods",
+            "name": "ears",
+            "side": "CLIENT",
+            "projectID": 412013,
+            "fileID": 3276414
+        },
+        {
+            "type": "curse",
             "id": "easyautocrafting",
             "path": "mods",
             "name": "easyautocrafting",
@@ -476,7 +485,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "netherite-plus-mod",
+            "name": "lambdynamiclights",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -954,22 +963,6 @@
             },
             "projectID": 375954,
             "fileID": 3278620
-        },
-        {
-            "type": "curse",
-            "id": "simple-voice-chat",
-            "path": "mods",
-            "name": "simple-voice-chat",
-            "description": "Voice chat",
-            "optionalData": {
-                "selected": true,
-                "recommendation": "starred"
-            },
-            "dependencies": {
-                "fabric-api": "REQUIRED"
-            },
-            "projectID": 416089,
-            "fileID": 3395253
         },
         {
             "type": "curse",
