@@ -320,7 +320,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "light-overlay",
+            "name": "artifacts-fabric",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -387,18 +387,6 @@
             },
             "projectID": 399309,
             "fileID": 3256690
-        },
-        {
-            "type": "curse",
-            "id": "defaultsettings-fabric",
-            "path": "mods",
-            "name": "defaultsettings-fabric",
-            "side": "CLIENT",
-            "dependencies": {
-                "fabric-api": "REQUIRED"
-            },
-            "projectID": 451860,
-            "fileID": 3235412
         },
         {
             "type": "curse",
@@ -485,7 +473,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "lambdynamiclights",
+            "name": "promenade",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -493,7 +481,7 @@
             "type": "curse",
             "id": "fabric-language-kotlin",
             "path": "mods",
-            "name": "carrier",
+            "name": "adorn",
             "projectID": 308769,
             "fileID": 3330753
         },

@@ -18,6 +18,9 @@
         },
         "userFiles": {
             "include": [
+                "options.txt",
+                "keys.txt",
+                "servers.dat",
                 "config/inventorysorter/config.json5",
                 "config/xaerominimap.txt",
                 "config/xaeroworldmap.txt",
@@ -433,10 +436,10 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/dark-loading-screen"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/defaultsettings-fabric"
-            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/defaultsettings-fabric"
+//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/ears"
