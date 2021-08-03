@@ -24,6 +24,8 @@
                 "config/inventorysorter/config.json5",
                 "config/xaerominimap.txt",
                 "config/xaeroworldmap.txt",
+                "config/lambdynlights.toml",
+                "config/inventoryhud.json",
             ]
         }
     },
@@ -45,10 +47,6 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/animal-feeding-trough"
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/apple-trees-revived"
-//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/artifacts-fabric"
@@ -157,12 +155,9 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Fabric/couplings-for-fabric-updated"
+                "id": "couplings",
+                "curse_projectID": 311120
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/culinaire"
-//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/dark-paintings"
@@ -251,10 +246,6 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/natures-compass"
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/nbt-crafting"
-//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/netherite-plus-mod"
@@ -263,10 +254,6 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/npc-variety-port"
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/outvoted"
-//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/pehkui"
@@ -397,6 +384,22 @@
                 ],
                 "curse_projectName": "Fabric/xaeros-world-map",
                 "description": "fullscreen map"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/edit-sign",
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/bettersleepplus",
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/leaf-me-alone",
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/bits-and-chisels",
             }
         ],
         "client": [
@@ -436,10 +439,6 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/dark-loading-screen"
             },
-//            {
-//                "type": "curse",
-//                "curse_projectName": "Fabric/defaultsettings-fabric"
-//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/ears"
@@ -454,9 +453,6 @@
             },
             {
                 "type": "curse",
-//                "applyOverrides": [
-//                    "optional_recommended"
-//                ],
                 "curse_projectName": "Fabric/dynamic-sound-filters",
                 "description": "environment affects sound"
             },
@@ -477,6 +473,14 @@
                 "curse_projectName": "Fabric/light-overlay",
                 "description": "This mod provides users with a NEI-like light overlay."
             },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional"
+                ],
+                "curse_projectName": "Fabric/twitch-chat",
+                "description": "Twitch chat bridge"
+            }
         ],
         "server": [
         ]

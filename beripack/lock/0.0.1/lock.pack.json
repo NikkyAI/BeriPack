@@ -17,7 +17,19 @@
                 "OverrideMemory": "true"
             }
         },
-        "uploadUrl": "https://nikky.moe/.mc/voodoo/beripack"
+        "uploadUrl": "https://nikky.moe/.mc/voodoo/beripack",
+        "userFiles": {
+            "include": [
+                "options.txt",
+                "keys.txt",
+                "servers.dat",
+                "config/inventorysorter/config.json5",
+                "config/xaerominimap.txt",
+                "config/xaeroworldmap.txt",
+                "config/lambdynlights.toml",
+                "config/inventoryhud.json"
+            ]
+        }
     },
     "entries": [
         {
@@ -201,6 +213,14 @@
         },
         {
             "type": "curse",
+            "id": "bettersleepplus",
+            "path": "mods",
+            "name": "bettersleepplus",
+            "projectID": 423469,
+            "fileID": 3297276
+        },
+        {
+            "type": "curse",
             "id": "bewitchment",
             "path": "mods",
             "name": "bewitchment",
@@ -215,6 +235,17 @@
             },
             "projectID": 394915,
             "fileID": 3403216
+        },
+        {
+            "type": "curse",
+            "id": "bits-and-chisels",
+            "path": "mods",
+            "name": "bits-and-chisels",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 420709,
+            "fileID": 3326019
         },
         {
             "type": "curse",
@@ -354,11 +385,10 @@
         },
         {
             "type": "curse",
-            "id": "couplings-for-fabric-updated",
+            "id": "couplings",
             "path": "mods",
-            "name": "couplings-for-fabric-updated",
-            "projectID": 395659,
-            "fileID": 3111745
+            "projectID": 311120,
+            "fileID": 3374434
         },
         {
             "type": "curse",
@@ -428,6 +458,14 @@
         },
         {
             "type": "curse",
+            "id": "edit-sign",
+            "path": "mods",
+            "name": "edit-sign",
+            "projectID": 344996,
+            "fileID": 3289672
+        },
+        {
+            "type": "curse",
             "id": "enchantment-descriptions",
             "path": "mods",
             "name": "enchantment-descriptions",
@@ -443,7 +481,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 317856,
-            "fileID": 3382387
+            "fileID": 3409602
         },
         {
             "type": "curse",
@@ -473,7 +511,7 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "promenade",
+            "name": "appleskin",
             "projectID": 306612,
             "fileID": 3398544
         },
@@ -638,6 +676,14 @@
             },
             "projectID": 393442,
             "fileID": 3172563
+        },
+        {
+            "type": "curse",
+            "id": "leaf-me-alone",
+            "path": "mods",
+            "name": "leaf-me-alone",
+            "projectID": 363879,
+            "fileID": 2991691
         },
         {
             "type": "curse",
@@ -1015,6 +1061,22 @@
         },
         {
             "type": "curse",
+            "id": "twitch-chat",
+            "path": "mods",
+            "name": "twitch-chat",
+            "side": "CLIENT",
+            "description": "Twitch chat bridge",
+            "optionalData": {
+            },
+            "dependencies": {
+                "modmenu": "REQUIRED",
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 341600,
+            "fileID": 3202058
+        },
+        {
+            "type": "curse",
             "id": "wthit",
             "path": "mods",
             "name": "wthit",
@@ -1071,7 +1133,7 @@
             "type": "curse",
             "id": "yungs-api-fabric",
             "path": "mods",
-            "name": "yungs-better-mineshafts-fabric",
+            "name": "yungs-better-caves-fabric",
             "projectID": 421649,
             "fileID": 3387982
         },

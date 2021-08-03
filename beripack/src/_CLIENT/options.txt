@@ -2,3 +2,4 @@ version:2586
 autoJump:false
 skipMultiplayerWarning:true
 joinedFirstServer:true
+guiScale:3
