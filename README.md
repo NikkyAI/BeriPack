@@ -2,6 +2,16 @@
 
 This is the repos for development of strawbeeridemon's modpack
 
+## How to play
+
+get MultiMC5 from http://multimc.org/
+
+selfupdating multimc package [here](https://nikky.moe/.mc/beri/multimc-selfupdating/beripack-latest.zip)
+
+static multimc package [here](https://nikky.moe/.mc/beri/multimc-static/beripack-latest.zip)
+(not selfupdating)
+
+
 ## How to use
 
 when opening a shell (bash/fish/zsh) you can load autocompletions for the shell
