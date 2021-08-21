@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="package (client)" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/wrapper/wrapper.jar" />
+    <option name="PROGRAM_PARAMETERS" value="package beripack/modpack.meta.json5 curse mmc-fat voodoo mmc-voodoo" />
+    <option name="WORKING_DIRECTORY" value="C:\Users\nikky\dev\beri-pack" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2" />
+  </configuration>
+</component>
