@@ -81,10 +81,10 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/better-signs-and-frames"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/better-dropped-items"
-            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/better-dropped-items"
+//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/betterf3"
@@ -105,10 +105,10 @@
                 "type": "curse",
                 "curse_projectName": "Fabric/bewitchment"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/blockshifter"
-            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/blockshifter"
+//            },
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/blockus"
@@ -157,14 +157,6 @@
                 "type": "curse",
                 "id": "couplings",
                 "curse_projectID": 311120
-            },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/dark-paintings"
-            },
-            {
-                "type": "curse",
-                "curse_projectName": "Fabric/dark-paintings"
             },
             {
                 "type": "curse",
@@ -400,7 +392,11 @@
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/bits-and-chisels",
-            }
+            },
+//            {
+//                "type": "curse",
+//                "curse_projectName": "Fabric/winged",
+//            }
         ],
         "client": [
             {
@@ -445,6 +441,14 @@
             },
             {
                 "type": "curse",
+                "curse_projectName": "Fabric/advancements-enlarger"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Fabric/mumble-link-fabric"
+            },
+            {
+                "type": "curse",
                 "applyOverrides": [
                     "optional_recommended"
                 ],
@@ -480,6 +484,14 @@
                 ],
                 "curse_projectName": "Fabric/twitch-chat",
                 "description": "Twitch chat bridge"
+            },
+            {
+                "type": "curse",
+                "applyOverrides": [
+                    "optional_recommended"
+                ],
+                "curse_projectName": "Fabric/mouse-wheelie",
+                "description": "wheel on mouse, do things with it"
             }
         ],
         "server": [

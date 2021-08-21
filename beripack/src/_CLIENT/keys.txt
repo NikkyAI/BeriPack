@@ -1,3 +1,0 @@
-key.expandedstorage.config:key.keyboard.unknown
-gui.xaero_new_waypoint:key.keyboard.equal
-key.inventoryhud.openconfig:key.keyboard.unknown

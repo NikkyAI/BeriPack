@@ -1,5 +1,11 @@
 version:2586
 autoJump:false
+enableVsync:false
 skipMultiplayerWarning:true
 joinedFirstServer:true
 guiScale:3
+maxFps:60
+key_key.amecs.toggle_auto_jump:key.keyboard.unknown
+key_key.expandedstorage.config:key.keyboard.unknown
+key_gui.xaero_new_waypoint:key.keyboard.equal
+key_key.inventoryhud.openconfig:key.keyboard.unknown

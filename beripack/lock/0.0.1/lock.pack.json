@@ -54,6 +54,18 @@
         },
         {
             "type": "curse",
+            "id": "advancements-enlarger",
+            "path": "mods",
+            "name": "advancements-enlarger",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 355583,
+            "fileID": 3032313
+        },
+        {
+            "type": "curse",
             "id": "all-stone-to-tools",
             "path": "mods",
             "name": "all-stone-to-tools",
@@ -89,7 +101,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 248787,
-            "fileID": 3395797
+            "fileID": 3420932
         },
         {
             "type": "curse",
@@ -101,7 +113,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 419697,
-            "fileID": 3385659
+            "fileID": 3415040
         },
         {
             "type": "curse",
@@ -160,14 +172,6 @@
             },
             "projectID": 400477,
             "fileID": 3120448
-        },
-        {
-            "type": "curse",
-            "id": "better-dropped-items",
-            "path": "mods",
-            "name": "better-dropped-items",
-            "projectID": 350250,
-            "fileID": 3108108
         },
         {
             "type": "curse",
@@ -249,18 +253,6 @@
         },
         {
             "type": "curse",
-            "id": "blockshifter",
-            "path": "mods",
-            "name": "blockshifter",
-            "dependencies": {
-                "fabric-api": "REQUIRED",
-                "fabric-language-scala": "REQUIRED"
-            },
-            "projectID": 398676,
-            "fileID": 3402300
-        },
-        {
-            "type": "curse",
             "id": "blockus",
             "path": "mods",
             "name": "blockus",
@@ -268,7 +260,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 312289,
-            "fileID": 3394245
+            "fileID": 3427057
         },
         {
             "type": "curse",
@@ -351,7 +343,7 @@
             "type": "curse",
             "id": "cloth-config",
             "path": "mods",
-            "name": "artifacts-fabric",
+            "name": "conjuring",
             "projectID": 319057,
             "fileID": 3311351
         },
@@ -511,25 +503,17 @@
             "type": "curse",
             "id": "fabric-api",
             "path": "mods",
-            "name": "appleskin",
+            "name": "river-redux",
             "projectID": 306612,
-            "fileID": 3398544
+            "fileID": 3430572
         },
         {
             "type": "curse",
             "id": "fabric-language-kotlin",
             "path": "mods",
-            "name": "adorn",
+            "name": "carrier",
             "projectID": 308769,
             "fileID": 3330753
-        },
-        {
-            "type": "curse",
-            "id": "fabric-language-scala",
-            "path": "mods",
-            "name": "blockshifter",
-            "projectID": 309275,
-            "fileID": 3392902
         },
         {
             "type": "curse",
@@ -598,7 +582,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 483073,
-            "fileID": 3368515
+            "fileID": 3418317
         },
         {
             "type": "curse",
@@ -781,6 +765,32 @@
         },
         {
             "type": "curse",
+            "id": "mouse-wheelie",
+            "path": "mods",
+            "name": "mouse-wheelie",
+            "side": "CLIENT",
+            "description": "wheel on mouse, do things with it",
+            "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
+            },
+            "projectID": 317514,
+            "fileID": 3398487
+        },
+        {
+            "type": "curse",
+            "id": "mumble-link-fabric",
+            "path": "mods",
+            "name": "mumble-link-fabric",
+            "side": "CLIENT",
+            "dependencies": {
+                "fabric-api": "REQUIRED"
+            },
+            "projectID": 321669,
+            "fileID": 3141807
+        },
+        {
+            "type": "curse",
             "id": "natures-compass",
             "path": "mods",
             "name": "natures-compass",
@@ -857,7 +867,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 319596,
-            "fileID": 3351974
+            "fileID": 3419524
         },
         {
             "type": "curse",
@@ -993,10 +1003,11 @@
             "path": "mods",
             "name": "simple-emerald-tools-fabric",
             "dependencies": {
-                "fabric-api": "REQUIRED"
+                "fabric-api": "REQUIRED",
+                "cloth-config": "REQUIRED"
             },
             "projectID": 375954,
-            "fileID": 3278620
+            "fileID": 3421917
         },
         {
             "type": "curse",
@@ -1084,7 +1095,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 440979,
-            "fileID": 3356120
+            "fileID": 3418898
         },
         {
             "type": "curse",
@@ -1100,7 +1111,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 263420,
-            "fileID": 3405504
+            "fileID": 3423287
         },
         {
             "type": "curse",
@@ -1116,7 +1127,7 @@
                 "fabric-api": "REQUIRED"
             },
             "projectID": 317780,
-            "fileID": 3405516
+            "fileID": 3423295
         },
         {
             "type": "curse",
@@ -1133,9 +1144,9 @@
             "type": "curse",
             "id": "yungs-api-fabric",
             "path": "mods",
-            "name": "yungs-better-caves-fabric",
+            "name": "yungs-better-mineshafts-fabric",
             "projectID": 421649,
-            "fileID": 3387982
+            "fileID": 3418761
         },
         {
             "type": "curse",
@@ -1166,11 +1177,12 @@
             "path": "mods",
             "name": "yungs-better-strongholds-fabric",
             "dependencies": {
+                "cloth-config": "REQUIRED",
                 "fabric-api": "REQUIRED",
                 "yungs-api-fabric": "REQUIRED"
             },
             "projectID": 480684,
-            "fileID": 3387988
+            "fileID": 3412632
         }
     ]
 }
