@@ -25,7 +25,7 @@
                 "config/xaerominimap.txt",
                 "config/xaeroworldmap.txt",
                 "config/lambdynlights.toml",
-                "config/inventoryhud.json",
+                "config/inventoryhud.json"
             ]
         }
     },
@@ -292,10 +292,10 @@
             },
             {
                 "type": "curse",
-                id: "simplerharvest",
-                curse_projectID: 481720,
+                "id": "simplerharvest",
+                "curse_projectID": 481720,
 //                "curse_projectName": "Fabric/simpleharvest",
-                validMcVersions: ["1.16.1"]
+                "validMcVersions": ["1.16.1"]
             },
             {
                 "type": "curse",
@@ -392,7 +392,7 @@
             {
                 "type": "curse",
                 "curse_projectName": "Fabric/bits-and-chisels",
-            },
+            }
 //            {
 //                "type": "curse",
 //                "curse_projectName": "Fabric/winged",
@@ -465,7 +465,7 @@
                 "applyOverrides": [
                     "optional"
                 ],
-                name: "inventory-hud",
+                "name": "inventory-hud",
                 "curse_projectName": "Fabric/inventory-hud-forge",
                 "description": "Displays inventory on HUD"
             },
